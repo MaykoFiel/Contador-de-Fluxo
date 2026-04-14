@@ -1,12 +1,16 @@
-# Contador de Fluxo
+*Desafio de Controle de Fluxo - Java
 
-Este projeto foi desenvolvido em Java como parte de um desafio de controle de fluxo.  
-Ele solicita dois parâmetros numéricos e realiza uma contagem baseada na diferença entre eles, tratando exceções quando os valores não são válidos.
+Este projeto foi desenvolvido para consolidar os conhecimentos básicos de controle de fluxo e tratamento de erros em Java. A aplicação recebe dois números inteiros via terminal e realiza uma contagem baseada na diferença entre eles, demonstrando o uso prático de estruturas de repetição e lógica condicional.
 
-## 🚀 Funcionalidades
-- Solicita dois números inteiros via terminal.
-- Verifica se o segundo número é maior que o primeiro.
-- Caso contrário, lança uma exceção personalizada (`ParametroInvalidosException`).
-- Realiza a contagem e imprime os números no console.
+🚀 Funcionalidades
 
+Interação via Console: Recebe entradas do usuário através da classe Scanner.
+Lógica de Contagem: Realiza um loop for para imprimir os números incrementados com base nos parâmetros fornecidos.
+Tratamento de Exceções Personalizadas: Implementa a exceção ParametrosInvalidosException, que é disparada caso o primeiro parâmetro seja maior que o segundo, garantindo a integridade da lógica de negócio.
 
+🛠 Tecnologias e Conceitos
+
+Linguagem: Java 17+.
+Estrutura de Repetição: Uso de for para iteração controlada.
+Tratamento de Erros: Uso de blocos try-catch e criação de exceções customizadas.
+Entrada de Dados: Manipulação de dados via System.in.*
